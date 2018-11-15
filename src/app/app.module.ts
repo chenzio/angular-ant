@@ -9,12 +9,18 @@ import { HttpClientModule } from '@angular/common/http';
 import { NgZorroAntdModule, NZ_I18N, zh_CN } from 'ng-zorro-antd';
 import { registerLocaleData } from '@angular/common';
 import zh from '@angular/common/locales/zh';
+import { LeftMenuComponent } from './left-menu/left-menu.component';
+import { OverviewComponent } from './overview/overview.component';
+import { PhotosComponent } from './photos/photos.component';
 
 registerLocaleData(zh);
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LeftMenuComponent,
+    OverviewComponent,
+    PhotosComponent
   ],
   imports: [
     BrowserModule,
