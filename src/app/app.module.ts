@@ -12,6 +12,7 @@ import zh from '@angular/common/locales/zh';
 import { LeftMenuComponent } from './left-menu/left-menu.component';
 import { OverviewComponent } from './overview/overview.component';
 import { PhotosComponent } from './photos/photos.component';
+import { CarouselComponent } from './carousel/carousel.component';
 
 registerLocaleData(zh);
 
@@ -20,7 +21,8 @@ registerLocaleData(zh);
     AppComponent,
     LeftMenuComponent,
     OverviewComponent,
-    PhotosComponent
+    PhotosComponent,
+    CarouselComponent
   ],
   imports: [
     BrowserModule,
